@@ -1,0 +1,13 @@
+# IntelliJ project files
+.idea
+*.iml
+**/*.iml
+**/build/
+**/target
+out
+gen
+
+# mac
+**/*DS*
+
+/docker-local-env/standalone-logs
