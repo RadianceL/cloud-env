@@ -59,7 +59,7 @@ services:
       retries: 10
 
   redis:
-    image: redis:${REDOS_VERSION}
+    image: redis:${REDIS_VERSION}
     container_name: redis-container
     networks:
       - service_network
